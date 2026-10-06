@@ -1,0 +1,32 @@
+{
+  "course": "ECE326",
+  "year": "2026",
+  "week": 5,
+  "title": "Object-Oriented and Aspect-Oriented Programming",
+  "source_revision": "8aa01a7424aa3fd3aa76a4d0715e08d35484f46d",
+  "source_branch": "release/ece326/2026",
+  "source_state": "working-tree",
+  "source_input_sha256": {
+    "Makefile": "0b0f020ba47e7351bf6991ebad23963aa6558682aee83db0d194250c57b8e067",
+    "course.mk": "0c69c57a3a1a8331c251d14c6987e4cc4610aed706d3f2a69a918bf10c1e4df1",
+    "ece326/Makefile": "6deb0186fadd795b66cf33d8c1e2dbf1b776fc9f607f31b786c701de0590c1d5",
+    "ece326/assets/images/type-hierarchy.png": "28e4d05c93c1104adfdc7e2b24c309be2b0dc0716a99a33104f73f904872e65c",
+    "ece326/lec20-22.org": "c2dafe320717c8aa2fe65e42ceaaea74c95c6fbf085922aaf80ae2c1f6395601",
+    "ece326/lec23-25.org": "ad6b20cbbfb224f7fefbfffa700bb3fc02aa115457f22ae62ac061653da5dd5b",
+    "ece326/release.toml": "a9d58271b8c74e8bfc029773d4bf40e71f87b5c4e72e34da91f5babcd0c307f6",
+    "requirements-dev.txt": "d52b1d6987abf21ba1a41481b191d33aafce645337923f526ff0d1b7bff209a8",
+    "tools/build_notebooks.py": "55344c754a6d96dee7b615d7941cd789a37769196769f4a4f5c173e5d7f52bf4",
+    "tools/org2nb.py": "fc3f32368827660a3d0811be8198c4c2d56dbf1ec10b4941af62d4d36d447982",
+    "tools/publish_week.py": "cc12561dbcb2d3da8f8c35fdbbe6f21b22b4cc6497a8ef8d8754d818d1975ac9",
+    "tools/render_handout_index.py": "6cbb670e8eaef47f2e2be3ea4ebd8ef7a63b445cf80ee75cc1a3d7e60e62bc3f",
+    "tools/validate_release.py": "a050b92a6d83ae5828be6adf94e48612f92f253775763381e8c4d570c850b7c0",
+    "year.mk": "0a9cb8ddefd30a1a9a0b4c6647b54bdfeea9d75d2b101e92f5ac70949fd8b299"
+  },
+  "notebooks": [
+    "lec20-22.ipynb",
+    "lec23-25.ipynb"
+  ],
+  "assets": [
+    "images/type-hierarchy.png"
+  ]
+}
