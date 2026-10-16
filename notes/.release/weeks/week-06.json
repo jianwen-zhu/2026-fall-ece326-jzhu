@@ -9,10 +9,10 @@
   "source_input_sha256": {
     "Makefile": "0b0f020ba47e7351bf6991ebad23963aa6558682aee83db0d194250c57b8e067",
     "course.mk": "9019bf76abf3c4564102c43724f1ddb02b3e5187d2481f74004099478ff80c27",
-    "ece326/Makefile": "f9f05d069e245d5b651e6c45f8d4fd83da711ab75022f8e3f8bbb3be6031b31b",
+    "ece326/Makefile": "cf1e8019994e17f3b3c62ecaa093587cee83089893aba93949619ef9fafba62e",
     "ece326/assets/access-log": "f0d27faceedf28bf3142bc5fa8aea4f3fe84e66153dd293cc439698f5c4f9797",
     "ece326/assets/allroutes.xml": "a2d55160b8c146a64e4a815065cc41415f200101b80169c55572aeb0e3982f3c",
-    "ece326/release.toml": "82e7961e197d5b28083b2896374afc2161f5a8545a7b41c2cccf30fdd8b655d8",
+    "ece326/release.toml": "0128f6fe89175b9c766b1a9bd68a6b1ff41880cfa1decfd3e25c964e39b457ac",
     "ece326/stream-programming.org": "459c8a877d453f9dbb604368e4070d0ebd1d249f5112f289da41095a6560461a",
     "requirements-dev.txt": "d52b1d6987abf21ba1a41481b191d33aafce645337923f526ff0d1b7bff209a8",
     "tools/build_notebooks.py": "e9a431135156165439038661f5501cd33b5b084d874dc961109484b7da33fb20",
