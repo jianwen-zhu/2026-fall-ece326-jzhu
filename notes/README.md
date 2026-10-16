@@ -25,6 +25,7 @@ generated from canonical Org-mode sources; do not edit generated notebooks here.
 
 - [lec13-14](lec13-14.ipynb)
 - [lec15-16](lec15-16.ipynb)
+- [tutorial02](tutorial02.ipynb)
 
 ## Week 06: Stream Programming
 
