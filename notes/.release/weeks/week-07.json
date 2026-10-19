@@ -1,0 +1,33 @@
+{
+  "course": "ECE326",
+  "year": "2026",
+  "week": 7,
+  "title": "Concurrent Programming",
+  "source_revision": "74bdbf350d2a4fbab4cd92cdc96186767845d9f0",
+  "source_branch": "release/ece326/2026",
+  "source_state": "working-tree",
+  "source_input_sha256": {
+    "Makefile": "0b0f020ba47e7351bf6991ebad23963aa6558682aee83db0d194250c57b8e067",
+    "course.mk": "9019bf76abf3c4564102c43724f1ddb02b3e5187d2481f74004099478ff80c27",
+    "ece326/Makefile": "fdac30c7876457104dd7d7ec616d6f2ee184f1e0cb32d912faa314f4caa3a847",
+    "ece326/assignment2-solutions.org": "5523ffc024c07426842436298f9ad0744bf0cbf384477d7174efe0c2cf4cb52e",
+    "ece326/async-addendum.org": "142cb09ad34f2cbb42b0f6a57dce95b9efaaf2b9d6f525c9e7d5892796bc7423",
+    "ece326/async-modern-comparison.org": "0db326bb9a4a45a69a53ca1eea4927600cc0b96f7467bb79b58205a3c66fff08",
+    "ece326/concurrent-programming.org": "7698f927c639a3a93547f48d8b0c35b2cf326b1fd4cfe5d08b8b283c1ae6950c",
+    "ece326/release.toml": "43d269c8a82ec8e29219db5bfe07d6b3aa9a9c944b5405968c41540d6b7195b2",
+    "requirements-dev.txt": "d52b1d6987abf21ba1a41481b191d33aafce645337923f526ff0d1b7bff209a8",
+    "tools/build_notebooks.py": "9e18307a35a65efab338546e6b1639a81a7b74d746b3e82a3ec06257aff2d78f",
+    "tools/org2nb.py": "fa2065105e5ae44acaeb52092ac8d290f050a0eb7f35881fcea38614ca56db44",
+    "tools/publish_week.py": "cc12561dbcb2d3da8f8c35fdbbe6f21b22b4cc6497a8ef8d8754d818d1975ac9",
+    "tools/render_handout_index.py": "6cbb670e8eaef47f2e2be3ea4ebd8ef7a63b445cf80ee75cc1a3d7e60e62bc3f",
+    "tools/validate_release.py": "a050b92a6d83ae5828be6adf94e48612f92f253775763381e8c4d570c850b7c0",
+    "year.mk": "0a9cb8ddefd30a1a9a0b4c6647b54bdfeea9d75d2b101e92f5ac70949fd8b299"
+  },
+  "notebooks": [
+    "lec20-22.ipynb",
+    "tutorial03.ipynb",
+    "async_addendum.ipynb",
+    "lec_async_modern_comparison.ipynb"
+  ],
+  "assets": []
+}
