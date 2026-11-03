@@ -1,0 +1,29 @@
+{
+  "course": "ECE326",
+  "year": "2026",
+  "week": 8,
+  "title": "Functional Programming I",
+  "source_revision": "74bdbf350d2a4fbab4cd92cdc96186767845d9f0",
+  "source_branch": "release/ece326/2026",
+  "source_state": "working-tree",
+  "source_input_sha256": {
+    "Makefile": "0b0f020ba47e7351bf6991ebad23963aa6558682aee83db0d194250c57b8e067",
+    "course.mk": "9019bf76abf3c4564102c43724f1ddb02b3e5187d2481f74004099478ff80c27",
+    "ece326/Makefile": "20c068b5246cb14f925e3550226362778cb65fe29b8832e7d025ff1ae3ea6b2d",
+    "ece326/functional-programming.org": "7295e0c9a843c89b2dd8416fdf90a1d6e0e400a36b4f4b16020e8ce7055c28d1",
+    "ece326/midterm-review.org": "196e3ce9c8bc3d2eb6731dc9853650687902d26521ee5dbb26c07609b4d1fb52",
+    "ece326/release.toml": "5cf011cab567aa2dc19d14ccb0091fd9a354f4808d37147bc067c7cfb66d7833",
+    "requirements-dev.txt": "d52b1d6987abf21ba1a41481b191d33aafce645337923f526ff0d1b7bff209a8",
+    "tools/build_notebooks.py": "9e18307a35a65efab338546e6b1639a81a7b74d746b3e82a3ec06257aff2d78f",
+    "tools/org2nb.py": "fa2065105e5ae44acaeb52092ac8d290f050a0eb7f35881fcea38614ca56db44",
+    "tools/publish_week.py": "cc12561dbcb2d3da8f8c35fdbbe6f21b22b4cc6497a8ef8d8754d818d1975ac9",
+    "tools/render_handout_index.py": "6cbb670e8eaef47f2e2be3ea4ebd8ef7a63b445cf80ee75cc1a3d7e60e62bc3f",
+    "tools/validate_release.py": "a050b92a6d83ae5828be6adf94e48612f92f253775763381e8c4d570c850b7c0",
+    "year.mk": "0a9cb8ddefd30a1a9a0b4c6647b54bdfeea9d75d2b101e92f5ac70949fd8b299"
+  },
+  "notebooks": [
+    "lec23-25.ipynb",
+    "tutorial04.ipynb"
+  ],
+  "assets": []
+}
