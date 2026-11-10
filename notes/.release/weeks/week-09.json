@@ -11,7 +11,7 @@
     "course.mk": "9019bf76abf3c4564102c43724f1ddb02b3e5187d2481f74004099478ff80c27",
     "ece326/Makefile": "20c068b5246cb14f925e3550226362778cb65fe29b8832e7d025ff1ae3ea6b2d",
     "ece326/functional-programming-II.org": "fbe488c1073b5be9ae937b3e1106cfebf84c58910a7d6b6abfd1055751d94425",
-    "ece326/release.toml": "e76babfae1ace16592844c6870a7c8f8adbe887ff222e336ca88f776ffcbdd30",
+    "ece326/release.toml": "85b4fe38aeb6b0055445d2283457fd814d0f7d1657d2a31124a893cbee8940f3",
     "requirements-dev.txt": "d52b1d6987abf21ba1a41481b191d33aafce645337923f526ff0d1b7bff209a8",
     "tools/build_notebooks.py": "9e18307a35a65efab338546e6b1639a81a7b74d746b3e82a3ec06257aff2d78f",
     "tools/org2nb.py": "fa2065105e5ae44acaeb52092ac8d290f050a0eb7f35881fcea38614ca56db44",
@@ -21,7 +21,7 @@
     "year.mk": "0a9cb8ddefd30a1a9a0b4c6647b54bdfeea9d75d2b101e92f5ac70949fd8b299"
   },
   "notebooks": [
-    "Continuations.ipynb"
+    "lec26-28.ipynb"
   ],
   "assets": []
 }
