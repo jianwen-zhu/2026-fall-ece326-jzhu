@@ -9,8 +9,8 @@
   "source_input_sha256": {
     "Makefile": "0b0f020ba47e7351bf6991ebad23963aa6558682aee83db0d194250c57b8e067",
     "course.mk": "9019bf76abf3c4564102c43724f1ddb02b3e5187d2481f74004099478ff80c27",
-    "ece326/Makefile": "20c068b5246cb14f925e3550226362778cb65fe29b8832e7d025ff1ae3ea6b2d",
-    "ece326/functional-programming-II.org": "fbe488c1073b5be9ae937b3e1106cfebf84c58910a7d6b6abfd1055751d94425",
+    "ece326/Makefile": "c1cd4120df6ee1df4d4f278aad16855dbad99bec86ac0a4b404997306973b695",
+    "ece326/functional-programming-II.org": "3924fa8ab2fc05afb708e6802396ed1273fd3ba173ecd8bed32954bb63e71c40",
     "ece326/release.toml": "85b4fe38aeb6b0055445d2283457fd814d0f7d1657d2a31124a893cbee8940f3",
     "requirements-dev.txt": "d52b1d6987abf21ba1a41481b191d33aafce645337923f526ff0d1b7bff209a8",
     "tools/build_notebooks.py": "9e18307a35a65efab338546e6b1639a81a7b74d746b3e82a3ec06257aff2d78f",
