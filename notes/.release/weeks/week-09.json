@@ -10,8 +10,10 @@
     "Makefile": "0b0f020ba47e7351bf6991ebad23963aa6558682aee83db0d194250c57b8e067",
     "course.mk": "9019bf76abf3c4564102c43724f1ddb02b3e5187d2481f74004099478ff80c27",
     "ece326/Makefile": "c1cd4120df6ee1df4d4f278aad16855dbad99bec86ac0a4b404997306973b695",
-    "ece326/functional-programming-II.org": "bf3ec8b70639b946695d8d83e417b89a42cc4bbc51640daa4530bf35f9b47b46",
-    "ece326/release.toml": "85b4fe38aeb6b0055445d2283457fd814d0f7d1657d2a31124a893cbee8940f3",
+    "ece326/assets/images/sat-counterexample.png": "ce8ddac1396989b13f1571e17715e89e810f597c623baa1fed27550bceac3f97",
+    "ece326/assets/images/sat-mux-circuits.png": "9e27f181382bb1aaad37c9da865c7b270b0c07f582a0c3f202d5333c57262685",
+    "ece326/functional-programming-II.org": "cee33dda9fc153c2afb91fc61d65555b487da3d24c64baa50f80cbf20431d277",
+    "ece326/release.toml": "1954974b0938d3bdc5c3c39def0a041bf20bf0bb1981179b012e1c9adb8be5b1",
     "requirements-dev.txt": "d52b1d6987abf21ba1a41481b191d33aafce645337923f526ff0d1b7bff209a8",
     "tools/build_notebooks.py": "9e18307a35a65efab338546e6b1639a81a7b74d746b3e82a3ec06257aff2d78f",
     "tools/org2nb.py": "fa2065105e5ae44acaeb52092ac8d290f050a0eb7f35881fcea38614ca56db44",
@@ -23,5 +25,8 @@
   "notebooks": [
     "lec26-28.ipynb"
   ],
-  "assets": []
+  "assets": [
+    "images/sat-mux-circuits.png",
+    "images/sat-counterexample.png"
+  ]
 }
