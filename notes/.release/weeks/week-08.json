@@ -9,10 +9,10 @@
   "source_input_sha256": {
     "Makefile": "0b0f020ba47e7351bf6991ebad23963aa6558682aee83db0d194250c57b8e067",
     "course.mk": "9019bf76abf3c4564102c43724f1ddb02b3e5187d2481f74004099478ff80c27",
-    "ece326/Makefile": "20c068b5246cb14f925e3550226362778cb65fe29b8832e7d025ff1ae3ea6b2d",
-    "ece326/functional-programming.org": "8513a84ed5a370a50e1ea2f0ce86eec34d224370f74321705a3e775bb8b13f7d",
+    "ece326/Makefile": "c1cd4120df6ee1df4d4f278aad16855dbad99bec86ac0a4b404997306973b695",
+    "ece326/functional-programming.org": "423361c277cfb268447a00acaf09eefa965c7df4e00bbe0eefebe7e4a2951e4a",
     "ece326/midterm-review.org": "196e3ce9c8bc3d2eb6731dc9853650687902d26521ee5dbb26c07609b4d1fb52",
-    "ece326/release.toml": "5cf011cab567aa2dc19d14ccb0091fd9a354f4808d37147bc067c7cfb66d7833",
+    "ece326/release.toml": "1954974b0938d3bdc5c3c39def0a041bf20bf0bb1981179b012e1c9adb8be5b1",
     "requirements-dev.txt": "d52b1d6987abf21ba1a41481b191d33aafce645337923f526ff0d1b7bff209a8",
     "tools/build_notebooks.py": "9e18307a35a65efab338546e6b1639a81a7b74d746b3e82a3ec06257aff2d78f",
     "tools/org2nb.py": "fa2065105e5ae44acaeb52092ac8d290f050a0eb7f35881fcea38614ca56db44",
