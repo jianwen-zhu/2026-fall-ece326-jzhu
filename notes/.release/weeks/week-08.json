@@ -9,8 +9,8 @@
   "source_input_sha256": {
     "Makefile": "0b0f020ba47e7351bf6991ebad23963aa6558682aee83db0d194250c57b8e067",
     "course.mk": "9019bf76abf3c4564102c43724f1ddb02b3e5187d2481f74004099478ff80c27",
-    "ece326/Makefile": "c1cd4120df6ee1df4d4f278aad16855dbad99bec86ac0a4b404997306973b695",
-    "ece326/functional-programming.org": "423361c277cfb268447a00acaf09eefa965c7df4e00bbe0eefebe7e4a2951e4a",
+    "ece326/Makefile": "9ecb404beff20bb0926c70e8d5f52ee5b2fa580f185c39b70e7c82d998bf67f0",
+    "ece326/functional-programming.org": "089b2607c771e7f93d7f9fbb0a5a51d0c00fe6fee486fb908a7f4545c8cc4fd7",
     "ece326/midterm-review.org": "196e3ce9c8bc3d2eb6731dc9853650687902d26521ee5dbb26c07609b4d1fb52",
     "ece326/release.toml": "1954974b0938d3bdc5c3c39def0a041bf20bf0bb1981179b012e1c9adb8be5b1",
     "requirements-dev.txt": "d52b1d6987abf21ba1a41481b191d33aafce645337923f526ff0d1b7bff209a8",
