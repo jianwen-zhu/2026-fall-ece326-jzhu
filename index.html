@@ -45,72 +45,67 @@ and programmer effort.</li>
 sequence or return to a topic as needed. New material is released
 progressively; this page links only to notebooks verified in the public
 repository.</p>
+<p>Choose <strong>Read</strong> to view a notebook on GitHub, or
+<strong>Run in Colab</strong> to open it in Google's hosted notebook
+environment. Save your own copy to keep changes. Some notebooks need
+extra packages or companion data files; opening a notebook in Colab does
+not download the rest of the repository.</p>
+<details class="colab-help"><summary>Using a notebook with companion files in Colab</summary>
+<p>Some lectures read files such as <code>access-log</code> or <code>allroutes.xml</code>, or use an <code>images/</code> or <code>resources/</code> folder. Before running those notebooks, add a code cell at the top and run these two lines once in a fresh Colab runtime:</p>
+<pre><code>%system git clone --depth 1 https://github.com/jianwen-zhu/2026-fall-ece326-jzhu.git /content/ece326-notes
+%cd /content/ece326-notes/notes</code></pre>
+<p>This downloads the public course files and sets the working directory so relative paths resolve. If you open another lecture in the same runtime, only the <code>%cd</code> line is needed. Run both lines again after starting a fresh runtime. For any additional packages, follow the notebook's setup instructions. Save your edited notebook to keep your changes; runtime files are temporary.</p>
+</details>
+
 <h3 id="foundations">01 · Foundations</h3>
 <p>Learn the language used throughout the course, then look beyond
 individual statements to sequences and reusable representations.</p>
 <ul>
-<li><a
-href="https://github.com/jianwen-zhu/2026-fall-ece326-jzhu/blob/main/notes/lec01.ipynb">Course
-introduction</a> — programming paradigms, expressive power, and the
-course approach.</li>
-<li><a
-href="https://github.com/jianwen-zhu/2026-fall-ece326-jzhu/blob/main/notes/lec02-03.ipynb">Python
-imperative core</a> — values, expressions, control, and functions.</li>
-<li><a
-href="https://github.com/jianwen-zhu/2026-fall-ece326-jzhu/blob/main/notes/lec04-06.ipynb">Python
-sequences</a> — working with collections, slicing, and sequence
-expressions.</li>
+<li><span class="notebook-title">Course introduction</span> <span class="notebook-links"><a href="https://github.com/jianwen-zhu/2026-fall-ece326-jzhu/blob/main/notes/lec01.ipynb" aria-label="Read Course introduction on GitHub">Read</a><a href="https://colab.research.google.com/github/jianwen-zhu/2026-fall-ece326-jzhu/blob/main/notes/lec01.ipynb" aria-label="Run Course introduction in Colab">Run in Colab ↗</a></span>
+— programming paradigms, expressive power, and the course approach.</li>
+<li><span class="notebook-title">Python imperative core</span> <span class="notebook-links"><a href="https://github.com/jianwen-zhu/2026-fall-ece326-jzhu/blob/main/notes/lec02-03.ipynb" aria-label="Read Python imperative core on GitHub">Read</a><a href="https://colab.research.google.com/github/jianwen-zhu/2026-fall-ece326-jzhu/blob/main/notes/lec02-03.ipynb" aria-label="Run Python imperative core in Colab">Run in Colab ↗</a></span>
+— values, expressions, control, and functions.</li>
+<li><span class="notebook-title">Python sequences</span> <span class="notebook-links"><a href="https://github.com/jianwen-zhu/2026-fall-ece326-jzhu/blob/main/notes/lec04-06.ipynb" aria-label="Read Python sequences on GitHub">Read</a><a href="https://colab.research.google.com/github/jianwen-zhu/2026-fall-ece326-jzhu/blob/main/notes/lec04-06.ipynb" aria-label="Run Python sequences in Colab">Run in Colab ↗</a></span>
+— working with collections, slicing, and sequence expressions.</li>
 </ul>
 <h3 id="arrays-as-a-language">02 · Arrays as a language</h3>
 <p>Express many computations at once. Shapes, broadcasting, masking, and
 reduction become tools for reasoning about algorithms.</p>
 <ul>
-<li><a
-href="https://github.com/jianwen-zhu/2026-fall-ece326-jzhu/blob/main/notes/lec07-09.ipynb">Array
-Programming I</a> — array operations and the transition from loops to
-expressions.</li>
-<li><a
-href="https://github.com/jianwen-zhu/2026-fall-ece326-jzhu/blob/main/notes/lec10-12.ipynb">Array
-Programming II</a> — richer array algorithms and applications.</li>
+<li><span class="notebook-title">Array Programming I</span> <span class="notebook-links"><a href="https://github.com/jianwen-zhu/2026-fall-ece326-jzhu/blob/main/notes/lec07-09.ipynb" aria-label="Read Array Programming I on GitHub">Read</a><a href="https://colab.research.google.com/github/jianwen-zhu/2026-fall-ece326-jzhu/blob/main/notes/lec07-09.ipynb" aria-label="Run Array Programming I in Colab">Run in Colab ↗</a></span>
+— array operations and the transition from loops to expressions.</li>
+<li><span class="notebook-title">Array Programming II</span> <span class="notebook-links"><a href="https://github.com/jianwen-zhu/2026-fall-ece326-jzhu/blob/main/notes/lec10-12.ipynb" aria-label="Read Array Programming II on GitHub">Read</a><a href="https://colab.research.google.com/github/jianwen-zhu/2026-fall-ece326-jzhu/blob/main/notes/lec10-12.ipynb" aria-label="Run Array Programming II in Colab">Run in Colab ↗</a></span>
+— richer array algorithms and applications.</li>
 </ul>
 <h3 id="objects-and-aspects">03 · Objects and aspects</h3>
 <p>Study how interfaces and language mechanisms organize behavior,
 including the decorator pattern encountered in the lab's HTTP
 routing.</p>
 <ul>
-<li><a
-href="https://github.com/jianwen-zhu/2026-fall-ece326-jzhu/blob/main/notes/lec13-14.ipynb">Object-oriented
-programming</a> — types, objects, protocols, and operator
-overloading.</li>
-<li><a
-href="https://github.com/jianwen-zhu/2026-fall-ece326-jzhu/blob/main/notes/lec15-16.ipynb">Metaprogramming
-and aspect-oriented programming</a> — decorators and separating
-cross-cutting behavior.</li>
+<li><span class="notebook-title">Object-oriented programming</span> <span class="notebook-links"><a href="https://github.com/jianwen-zhu/2026-fall-ece326-jzhu/blob/main/notes/lec13-14.ipynb" aria-label="Read Object-oriented programming on GitHub">Read</a><a href="https://colab.research.google.com/github/jianwen-zhu/2026-fall-ece326-jzhu/blob/main/notes/lec13-14.ipynb" aria-label="Run Object-oriented programming in Colab">Run in Colab ↗</a></span>
+— types, objects, protocols, and operator overloading.</li>
+<li><span class="notebook-title">Metaprogramming and aspect-oriented programming</span> <span class="notebook-links"><a href="https://github.com/jianwen-zhu/2026-fall-ece326-jzhu/blob/main/notes/lec15-16.ipynb" aria-label="Read Metaprogramming and aspect-oriented programming on GitHub">Read</a><a href="https://colab.research.google.com/github/jianwen-zhu/2026-fall-ece326-jzhu/blob/main/notes/lec15-16.ipynb" aria-label="Run Metaprogramming and aspect-oriented programming in Colab">Run in Colab ↗</a></span>
+— decorators and separating cross-cutting behavior.</li>
 </ul>
 <h3 id="streams-and-cooperation">04 · Streams and cooperation</h3>
 <p>Let data arrive incrementally and computations yield control. Connect
 these ideas to cooperative execution of multiple agents.</p>
 <ul>
-<li><a
-href="https://github.com/jianwen-zhu/2026-fall-ece326-jzhu/blob/main/notes/lec17-19.ipynb">Stream
-programming</a> — iterators, generators, and pipelines.</li>
-<li><a
-href="https://github.com/jianwen-zhu/2026-fall-ece326-jzhu/blob/main/notes/lec20-22.ipynb">Concurrent
-programming</a> — coroutines and cooperative scheduling.</li>
+<li><span class="notebook-title">Stream programming</span> <span class="notebook-links"><a href="https://github.com/jianwen-zhu/2026-fall-ece326-jzhu/blob/main/notes/lec17-19.ipynb" aria-label="Read Stream programming on GitHub">Read</a><a href="https://colab.research.google.com/github/jianwen-zhu/2026-fall-ece326-jzhu/blob/main/notes/lec17-19.ipynb" aria-label="Run Stream programming in Colab">Run in Colab ↗</a></span>
+— iterators, generators, and pipelines.</li>
+<li><span class="notebook-title">Concurrent programming</span> <span class="notebook-links"><a href="https://github.com/jianwen-zhu/2026-fall-ece326-jzhu/blob/main/notes/lec20-22.ipynb" aria-label="Read Concurrent programming on GitHub">Read</a><a href="https://colab.research.google.com/github/jianwen-zhu/2026-fall-ece326-jzhu/blob/main/notes/lec20-22.ipynb" aria-label="Run Concurrent programming in Colab">Run in Colab ↗</a></span>
+— coroutines and cooperative scheduling.</li>
 </ul>
 <h3 id="functions-and-explicit-control">05 · Functions and explicit
 control</h3>
 <p>Treat computations as values. Progress from closures and composition
 to continuations, backtracking, and Boolean constraint solving.</p>
 <ul>
-<li><a
-href="https://github.com/jianwen-zhu/2026-fall-ece326-jzhu/blob/main/notes/lec23-25.ipynb">Functional
-Programming I</a> — higher-order functions, closures, currying, and
-expression-oriented programming.</li>
-<li><a
-href="https://github.com/jianwen-zhu/2026-fall-ece326-jzhu/blob/main/notes/lec26-28.ipynb">Functional
-Programming II</a> — continuations, explicit control, search, and SAT
-applications.</li>
+<li><span class="notebook-title">Functional Programming I</span> <span class="notebook-links"><a href="https://github.com/jianwen-zhu/2026-fall-ece326-jzhu/blob/main/notes/lec23-25.ipynb" aria-label="Read Functional Programming I on GitHub">Read</a><a href="https://colab.research.google.com/github/jianwen-zhu/2026-fall-ece326-jzhu/blob/main/notes/lec23-25.ipynb" aria-label="Run Functional Programming I in Colab">Run in Colab ↗</a></span>
+— higher-order functions, closures, currying, and expression-oriented
+programming.</li>
+<li><span class="notebook-title">Functional Programming II</span> <span class="notebook-links"><a href="https://github.com/jianwen-zhu/2026-fall-ece326-jzhu/blob/main/notes/lec26-28.ipynb" aria-label="Read Functional Programming II on GitHub">Read</a><a href="https://colab.research.google.com/github/jianwen-zhu/2026-fall-ece326-jzhu/blob/main/notes/lec26-28.ipynb" aria-label="Run Functional Programming II in Colab">Run in Colab ↗</a></span>
+— continuations, explicit control, search, and SAT applications.</li>
 </ul>
 <h3 id="tensors-logic-and-probability">06 · Tensors, logic, and
 probability</h3>
