@@ -1,0 +1,178 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>ECE326 — Programming Languages</title>
+<meta name="description" content="ECE326 at the University of Toronto: learning objectives, executable lecture notes, and the ParadigmMorph lab project.">
+<link rel="stylesheet" href="style.css"></head>
+<body><a class="skip" href="#main">Skip to content</a>
+<nav aria-label="Main navigation"><a class="brand" href="#top">ECE<span>326</span></a><div><a href="#objectives">Objectives</a><a href="#topics">Topics</a><a href="#project">Project</a><a href="#resources">Resources</a></div></nav>
+<main id="main"><header class="hero" id="top">
+<p class="eyebrow">University of Toronto · Electrical &amp; Computer Engineering</p>
+<h1>Programming languages.<br><em>New ways to think.</em></h1>
+<p class="lead">Move beyond a single imperative mental model. Explore how arrays, objects, streams, functions, and explicit control make different problems natural to express.</p>
+<p class="byline">ECE326 · Fall 2026 · Jianwen Zhu</p>
+<div class="hero-links"><a class="button" href="#topics">Explore the lecture notes <span aria-hidden="true">↗</span></a><a href="#project">Meet the lab project →</a></div>
+<div class="motif" aria-label="Three views of a program: computation, state, and control"><span>Computation</span><span>State</span><span>Control</span></div>
+</header>
+
+<h2 id="objectives">What you will learn</h2>
+<p>Python is our common language; programming paradigms are the subject.
+Starting from familiar C/C++-style imperative reasoning, we examine how
+a change in representation can change both the program we write and the
+way we understand it.</p>
+<p>By the end of the course, you should be able to:</p>
+<ul>
+<li><strong>Choose and critique abstractions.</strong> Explain when a
+programming paradigm makes a problem clearer, and what tradeoffs it
+introduces.</li>
+<li><strong>Express computation at the right level.</strong> Replace
+element-by-element reasoning with array and tensor expressions, with
+explicit shapes and reduction axes.</li>
+<li><strong>Organize state and behavior.</strong> Use objects, Python's
+type mechanisms, and decorators to build reusable interfaces and
+separate concerns.</li>
+<li><strong>Make data flow and control explicit.</strong> Use iterators,
+generators, closures, higher-order functions, and continuations to
+express pipelines, cooperation, and search.</li>
+<li><strong>Connect expressions to a working system.</strong> Trace a
+small language-model service from input to output and relate its
+implementation to the abstractions used in class.</li>
+<li><strong>Evaluate transformations with evidence.</strong> Preserve
+behavior, test equivalence, and measure the consequences for performance
+and programmer effort.</li>
+</ul>
+<h2 id="topics">Explore the topics</h2>
+<p>The notes are executable Jupyter notebooks on GitHub. Follow the
+sequence or return to a topic as needed. New material is released
+progressively; this page links only to notebooks verified in the public
+repository.</p>
+<h3 id="foundations">01 · Foundations</h3>
+<p>Learn the language used throughout the course, then look beyond
+individual statements to sequences and reusable representations.</p>
+<ul>
+<li><a
+href="https://github.com/jianwen-zhu/2026-fall-ece326-jzhu/blob/main/notes/lec01.ipynb">Course
+introduction</a> — programming paradigms, expressive power, and the
+course approach.</li>
+<li><a
+href="https://github.com/jianwen-zhu/2026-fall-ece326-jzhu/blob/main/notes/lec02-03.ipynb">Python
+imperative core</a> — values, expressions, control, and functions.</li>
+<li><a
+href="https://github.com/jianwen-zhu/2026-fall-ece326-jzhu/blob/main/notes/lec04-06.ipynb">Python
+sequences</a> — working with collections, slicing, and sequence
+expressions.</li>
+</ul>
+<h3 id="arrays-as-a-language">02 · Arrays as a language</h3>
+<p>Express many computations at once. Shapes, broadcasting, masking, and
+reduction become tools for reasoning about algorithms.</p>
+<ul>
+<li><a
+href="https://github.com/jianwen-zhu/2026-fall-ece326-jzhu/blob/main/notes/lec07-09.ipynb">Array
+Programming I</a> — array operations and the transition from loops to
+expressions.</li>
+<li><a
+href="https://github.com/jianwen-zhu/2026-fall-ece326-jzhu/blob/main/notes/lec10-12.ipynb">Array
+Programming II</a> — richer array algorithms and applications.</li>
+</ul>
+<h3 id="objects-and-aspects">03 · Objects and aspects</h3>
+<p>Study how interfaces and language mechanisms organize behavior,
+including the decorator pattern encountered in the lab's HTTP
+routing.</p>
+<ul>
+<li><a
+href="https://github.com/jianwen-zhu/2026-fall-ece326-jzhu/blob/main/notes/lec13-14.ipynb">Object-oriented
+programming</a> — types, objects, protocols, and operator
+overloading.</li>
+<li><a
+href="https://github.com/jianwen-zhu/2026-fall-ece326-jzhu/blob/main/notes/lec15-16.ipynb">Metaprogramming
+and aspect-oriented programming</a> — decorators and separating
+cross-cutting behavior.</li>
+</ul>
+<h3 id="streams-and-cooperation">04 · Streams and cooperation</h3>
+<p>Let data arrive incrementally and computations yield control. Connect
+these ideas to cooperative execution of multiple agents.</p>
+<ul>
+<li><a
+href="https://github.com/jianwen-zhu/2026-fall-ece326-jzhu/blob/main/notes/lec17-19.ipynb">Stream
+programming</a> — iterators, generators, and pipelines.</li>
+<li><a
+href="https://github.com/jianwen-zhu/2026-fall-ece326-jzhu/blob/main/notes/lec20-22.ipynb">Concurrent
+programming</a> — coroutines and cooperative scheduling.</li>
+</ul>
+<h3 id="functions-and-explicit-control">05 · Functions and explicit
+control</h3>
+<p>Treat computations as values. Progress from closures and composition
+to continuations, backtracking, and Boolean constraint solving.</p>
+<ul>
+<li><a
+href="https://github.com/jianwen-zhu/2026-fall-ece326-jzhu/blob/main/notes/lec23-25.ipynb">Functional
+Programming I</a> — higher-order functions, closures, currying, and
+expression-oriented programming.</li>
+<li><a
+href="https://github.com/jianwen-zhu/2026-fall-ece326-jzhu/blob/main/notes/lec26-28.ipynb">Functional
+Programming II</a> — continuations, explicit control, search, and SAT
+applications.</li>
+</ul>
+<h3 id="tensors-logic-and-probability">06 · Tensors, logic, and
+probability</h3>
+<p>Extend the same question—how should this computation be expressed?—to
+tensor programs, language models, logical reasoning, and probabilistic
+programs.</p>
+<ul>
+<li><span class="unreleased">Tensor programming</span> <span class="status">Forthcoming</span>
+— Einstein notation and einops for transformations, comparisons, and
+aggregation.</li>
+<li><strong>Life of a token — forthcoming.</strong> Follow a transformer
+through embeddings, attention, feed-forward updates, and
+prediction.</li>
+<li><strong>Logic programming, model checking, and probabilistic
+programming — forthcoming.</strong> Later-term notes will be linked as
+they are released.</li>
+</ul>
+<p class="resource-link"><a href="https://github.com/jianwen-zhu/2026-fall-ece326-jzhu/tree/main/notes">Browse all released notebooks on GitHub →</a></p>
+
+<h2 id="project">ParadigmMorph</h2>
+<p class="eyebrow">The course project</p>
+<p class="project-lead">One AI service.<br>Different ways to express it.</p>
+
+<p>Work with a tiny, real language-model inference and serving stack:
+pretrained TinyStories weights, a NumPy Llama-style model, an HTTP
+service, and a client-side agent workload. The models are small enough
+to inspect and experiment with; their purpose is to make the program
+understandable.</p>
+<p>Across four labs, preserve the system's purpose while changing how it
+expresses computation and control. The language model is the
+application; programming paradigms are the subject.</p>
+<div class="project-flow" aria-label="The project connects an agent workload, HTTP service, and NumPy model"><span>Agent workload</span><b aria-hidden="true">↔</b><span>HTTP service</span><b aria-hidden="true">↔</b><span>NumPy model</span></div>
+
+<h3 id="lab-1-from-source-to-service">Lab 1 · From source to
+service</h3>
+<p>Run the system end to end, trace the abstractions behind a request,
+and establish a reproducible baseline. Connect model arrays, program
+state, and service behavior to observable results.</p>
+<h3 id="lab-2-from-loops-to-array-expressions">Lab 2 · From loops to
+array expressions</h3>
+<p>Re-express selected numerical kernels using array operations. Make
+shapes and reduction axes explicit, check agreement with the baseline,
+and measure the effect on inference. Ordinary NumPy array programming is
+sufficient for this stage.</p>
+<h3 id="lab-3-from-process-to-coroutine">Lab 3 · From process to
+coroutine</h3>
+<p>Transform a sequential client-side agent into generator-based
+cooperative tasks. Overlap simulated tool waits using a small scheduler,
+while preserving each agent's history and the model service's
+behavior.</p>
+<h3 id="lab-4-from-measurement-to-optimization">Lab 4 · From measurement
+to optimization</h3>
+<p>Choose one evidence-backed improvement to the working system. Profile
+the cost, formulate a hypothesis, preserve the required behavior, and
+evaluate the result with controlled measurements and an explanation of
+the tradeoffs.</p>
+<aside class="principle"><p class="eyebrow">The question behind every transformation</p><p>What meaning stays fixed?<br>What becomes easier to express?<br>What changes in the running system?</p></aside>
+
+<h2 id="resources">Course resources</h2>
+<p>This page is a public overview. Enrolled students should use Quercus
+and the syllabus for deadlines, assessment policies, detailed lab
+handouts, and starter-code releases.</p>
+<p><a class="button" href="https://github.com/jianwen-zhu/2026-fall-ece326-jzhu">Open the student GitHub repository ↗</a></p></main>
+<footer><span>ECE326 · Programming Languages</span><a href="#top">Back to top ↑</a></footer>
+</body></html>
