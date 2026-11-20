@@ -9,9 +9,9 @@
   "source_input_sha256": {
     "Makefile": "0b0f020ba47e7351bf6991ebad23963aa6558682aee83db0d194250c57b8e067",
     "course.mk": "9019bf76abf3c4564102c43724f1ddb02b3e5187d2481f74004099478ff80c27",
-    "ece326/Makefile": "6ed7366e0ee26f24bc046f87bc19556741be14b884b3d72db47960a91a30d858",
+    "ece326/Makefile": "80564abb09d366a5610e37d00c5767442ddbfaa47e5187d155c3d2bc9253524b",
     "ece326/assets/resources/test_images.npy": "34e7ae78d9726db94f493500c490c20a52f08857b3b7997ce91b57d6a11c61ee",
-    "ece326/llm-einsum.org": "f4e796231a51d508b297fd7cbcc380defbd48e4cc2177237146a301b40d4e109",
+    "ece326/llm-einsum.org": "bea685c00095a0669cb3dacfce87822d358d8df754bba7f129bf9c8d59bd8387",
     "ece326/release.toml": "77b2eb34266d9206250acb0168ffbcd9097e039e8a12699e005e51257ca56971",
     "ece326/tensor-programming.org": "cac4f3a3bc688695fdcb574defc1ee69b1883e98742447f199001df6b10799ff",
     "requirements-dev.txt": "d52b1d6987abf21ba1a41481b191d33aafce645337923f526ff0d1b7bff209a8",
